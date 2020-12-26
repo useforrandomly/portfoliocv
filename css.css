@@ -1,0 +1,149 @@
+body{
+	margin: 0;
+	background-color:black;
+}
+/*cv project*/
+.container{
+	max-width: 700px;
+	margin: 0 auto;
+	background-image:linear-gradient(to bottom right, #24edff , #269aff);
+	font-family: 'Exo 2', sans-serif;
+	padding: 20px;
+	color: #0051e1;
+}
+
+/*=============
+Header start
+================*/
+
+.image{
+	width: 100px;
+	height: 120px;
+	border: 3px solid #4affff;
+	border-radius:60px;
+	margin: 7px;
+	float: left;
+}
+
+.name{
+
+	line-height:5px;
+	margin-top:30px;
+	color: #0051e1;
+	float: left;
+}
+
+.name h1:hover{
+	text-shadow: 4px 4px 4px #a8dcff;
+
+}
+.contact{
+	float: right;
+	margin-top: 30px;
+}
+.contact a{
+	text-decoration: none;
+	color: #0051e1;
+}
+
+.contact a:hover{
+	color: tomato;
+
+}
+
+
+.clear{
+	clear:both;
+}
+
+hr{
+	border: 2px solid #00aeff;
+
+}
+.hr-main{
+	border: 1px solid #00aeff;
+}
+   /*=================
+   personal start
+   ===================*/
+
+
+   .personal-title{
+	float: left;
+	width: 35%;
+	margin-top:0px;
+
+
+}
+.personal-details{
+      float: left;
+      width: 65%;
+}
+    
+  /*====================
+  work experience start
+  =====================*/
+
+  
+.work-experience-title{
+	
+	float: left;
+	width: 35%;
+	margin-top:0px;
+
+
+
+}
+.work-experience-details{
+
+      float: left;
+      width: 65%;
+
+}
+
+/*=========================
+Education
+===========================*/
+
+.edu-title{
+      float: left;
+      width:35%;
+
+}
+
+.edu-details{
+	  float:left;
+      width:65%;
+}
+
+
+}
+.ssc{
+	float: left;
+	width:50%;
+	
+}
+.ssc{
+	float: left;
+	width:50%;
+	
+}
+
+/*=========================
+Footer
+===========================*/
+
+.footer{
+	color:#b7d3ed;
+	background-image:linear-gradient(to bottom right, #22b5bd , #2241bd);
+	padding:12px;
+	text-align:center;
+}
+.footer a{
+	text-decoration: none;
+	color:#1ce8e8;
+	margin:15px;
+}
+
+.footer a:hover{
+	color: tomato;
